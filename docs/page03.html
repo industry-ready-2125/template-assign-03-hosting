@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login page</title>
+        <style>
+                    
+
+            fieldset
+            {
+                text-align:center;
+                margin-top: 100px;
+                margin-right: 200px;
+                margin-left: 450px;
+                border-radius:15px;
+                width :500px;
+                height:350px;
+                
+            }
+            .innerbox
+            {
+                padding:10px 20px;
+                text-align:center;
+            }
+
+            label {
+                display: inline-block;
+                width: 100px; 
+                align-items: center;
+                justify-content: center;
+                font-style: italic;
+                font-weight: bold;
+                
+            }
+            input {
+                height:30px;
+                width: 200px; 
+            }
+            .b
+            {
+                background-color:rgb(59, 219, 59);
+                text-align:center;
+                padding:7px;
+                border-radius:3px;
+                
+            }
+            .c
+            {
+            
+                margin-top:20px;
+                padding:10px;
+                width:80px;
+                border-radius:5px;
+
+            }
+            
+        </style>
+    </head>
+    
+
+    <body style="background-color:#58cc02;">
+        <fieldset style="background-color: aliceblue;">
+            <form>
+     
+                <div class = "box">
+                    <p>Don't have account?
+                        <a href ="page02.html">Sign up</a>
+                    </p>
+                    <div class="innerbox">
+                        <label for ="email"> <br>Email : </br></label>
+                        <input type ="text" id = "email" name="email" placeholder="Enter ur mail"></br></br>
+                        <label for ="passwd"> <br>Password:</br> </label>
+                        <input type ="text" id = "passwd" name="passwd" placeholder = "Enter password" ></br></br>
+                    </div>
+                    <center><a href="forget">forgot password?</a></br></br></center>
+                    <button class ="b">Login</button>
+                    
+                </div>
+            </form>
+       
+        </fieldset>
+        <center><button class="c"><a href = "index.html">Home</button></center>
+
+    </body>
+</html>
